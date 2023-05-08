@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',
+    sans-serif;
+}
+
+.main{
+  max-width: 1440px;
+   height: 6575px;
+  background: #FFFFFF;
+  margin: auto;
+
+
+}
+.container{
+    width:83.3%;
+    margin: auto;
+    
+}
+
+/* header styles */
+
+header{
+    padding-top: 21px;
+ 
+}
+header .logo{
+    width: 112px;
+    height: 66px;
+    margin-bottom: 100px;
+ 
+}
+header .logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 29px;
+ 
+}
+
+header nav ul{
+  display: flex;
+  list-style-type: none;
+}
+header nav ul li{
+
+
+    margin-right: 25px;
+}
+header nav ul li img{
+    
+    width: 22px;
+    height: 21px;
+    margin-right: 8px;
+   
+}
+header nav ul li span{
+    display: inline-block;
+    width: 130px;
+    height: 32px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* or 23px */
+    color: #000000;
+}
+
+/* section banner styles start */
+section.banner{
+    display: flex;
+    margin-bottom:87.62px;
+}
+section.banner .banner-left{
+
+}
+section.banner .banner-left h1{
+
+width: 628px;
+height: 190px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 101.38%;
+/* or 81px */
+
+
+color: #000000;
+}
+section.banner .banner-left p{
+width: 414px;
+height: 62px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 150%;
+/* or 30px */
+color: #000000;
+
+}
+section.banner .banner-right{
+
+}
+section.banner .banner-right .banner-img{
+position: relative;
+width: 304px;
+height: 356px;
+margin-left: 140px;
+
+}
+section.banner .banner-right .banner-img .main{
+width: 100%;
+height: 100%;
+object-fit: cover;
+position: relative;
+
+}
+section.banner .banner-right .banner-img .bottom{
+    position: absolute;
+    width: 274px;
+    height: 41px;
+    bottom: -16px;
+    left: 43px;
+    z-index: 1;
+}
+
+/* section banner styles end */
+
+/* section ancestor start */
+section.ancestor{
+ 
+ position: relative;
+  width: 483.63px;
+  height: 200px;
+  background: #1E4681;
+  border-radius: 5px;
+  margin-left: 280px;
+  padding-top: 19.26px;
+  padding-right: 27.02px;
+  padding-left: 27.04px;
+  margin-bottom: 173.36px;
+
+}
+section.ancestor p{
+
+
+ width: 430.59px;
+ height: 113px;
+ font-family: 'Roboto Slab';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 25px;
+ line-height: 32px;
+ /* or 32px */
+
+
+ color: #FFFFFF;
+
+}
+section.ancestor span{
+
+ position: absolute;
+ width: 280.5px;
+ height: 45.64px;
+ right: 18.52px;
+ bottom: 0px;
+
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 20px;
+ line-height: 130%;
+ /* or 26px */
+
+ text-align: right;
+
+ color: #FFFFFF;
+}
+
+/* section ancestor end */
+
+/* about style */
+
+section.about{
+ margin-bottom: 63px;
+}
+section.about .about-title{
+margin-bottom: 18px;
+}
+section.about .about-title h3{
+
+width: 365px;
+height: 93px;
+
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 101.38%;
+/* or 56px */
+
+
+color: #000000;
+}
+section.about .about-wrapper{
+ display: flex;
+}
+section.about .about-wrapper .about-left{
+ margin-right: 190px;
+}
+section.about .about-wrapper .about-left p{
+ 
+ width: 662px;
+ height: 374px;
+
+ font-family: 'Roboto';
+ font-style: normal;
+ font-weight: 400;
+ font-size: 24px;
+ line-height: 150%;
+ /* or 36px */
+
+
+ color: #000000;
+}
+section.about .about-wrapper .about-right{
+
+}
+section.about .about-wrapper .about-right .img-box{
+     position: relative;
+     width: 314px;
+     height: 315px;
+}
+/* section.about .about-wrapper .about-right .img-box{
+  position: relative;
+} */
+section.about .about-wrapper .about-right .img-box .main{
+
+width: 100%;
+height: 100%;
+object-fit: cover;
+ 
+}
+section.about .about-wrapper .about-right .img-box .bottom{
+     position: absolute;
+     bottom: -24px;
+     right: -24px;
+     z-index: -1;
+     width: 366px;
+     height: 60px;
+}
+
+/* about styles end */
+
+/* counter section styles */
+
+section.counter{
+   margin-bottom: 178px; 
+}
+section.counter .counter-wrapper{
+ display:flex;
+}
+section.counter .counter-wrapper .counter-img_box {
+ 
+ width: 232px;
+ height: 203px;
+ margin-right: 132px;
+
+}
+section.counter .counter-wrapper .counter-img_box .main {
+ width:100%;
+ height: 100%;
+ object-fit: cover;
+}
+section.counter .counter-wrapper .counter-img_box .bottom {
+ display: none;
+}
+section.counter .counter-wrapper .counter-content{
+
+}
+section.counter .counter-wrapper .counter-content ul{
+ height: 100%;   
+ display: flex;
+ align-items: center;
+}
+section.counter .counter-wrapper .counter-content ul li{
+list-style-type: none;
+margin-right: 95px;
+}
+section.counter .counter-wrapper .counter-content ul li h3{
+
+width: 150px;
+height: 39px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 130%;
+/* or 32px */
+color: #000000;
+}
+section.counter .counter-wrapper .counter-content ul li p{
+
+width: 150px;
+height: 39px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+/* or 23px */
+
+
+color: #000000;
+
+}
+
+/*  counter section styles end */
+
+/*  section format styles */
+
+section.format{
+margin-bottom: 235px;
+}
+section.format .format-title{
+margin-bottom: 89px;
+}
+section.format .format-title h2{
+width: 667px;
+height: 93px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 101.38%;
+/* or 56px */
+color: #000000;
+}
+
+section.format ul{
+    display: flex;
+    list-style-type: none;
+}
+section.format ul li:first-child{
+
+margin-right: 122px;
+}
+section.format ul li:nth-child(2){
+
+margin-right: 113px;
+}
+section.format ul li h3{
+
+
+height: 39px;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 130%;
+/* or 32px */
+
+
+color: #1E4681;
+}
+section.format ul li p{
+
+width: 223px;
+height: 39px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+/* or 23px */
+
+
+color: #000000;
+}
+section.format ul li p:nth-child(2){
+
+width: 271px;
+height: 39px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 130%;
+/* or 23px */
+
+
+color: #000000;
+}
+
+/* section format ends here */
+
+/*  Knowledge style start here  */
+section.knowledge{
+    margin-bottom: 242px;
+    
+}
+section.knowledge .knowledge-title{
+margin-bottom: 27px;
+}
+section.knowledge .knowledge-title h2{
+
+width: 667px;
+height: 93px;
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 101.38%;
+/* or 56px */
+color: #000000;
+}
+section.knowledge ul {
+   width: 662px;
+   height: 374px;
+   
+
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 150%;
+   /* or 36px */
+
+
+   color: #000000;}
+section.knowledge ul li {
+    
+   
+}
+/*  Knowledge style end here */
+
+/*  course_program style start */
+
+section.course_program{
+    
+}
+section.course_program .course_program-title {
+margin-bottom: 95px;
+}
+section.course_program .course_program-title h2 {
+
+width: 905px;
+height: 93px;
+
+
+font-family: 'Roboto Slab';
+font-style: normal;
+font-weight: 700;
+font-size: 55px;
+line-height: 101.38%;
+/* or 56px */
+
+
+color: #000000;
+}
+section.course_program .course_program-wrapper{
+display: flex;
+flex-wrap: wrap;
+}
+section.course_program .course_program-wrapper .course_program-box {
+
+width: 399px;
+height: 328px;
+
+
+background: #FFFFFF;
+box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+border-radius: 30px;
+}
+section.course_program .course_program-wrapper .course_program-box .img-box {
+
+width: 399px;
+height: 160px;
+
+
+}
+section.course_program .course_program-wrapper .course_program-box .img-box img {
+
+width:100%;
+height: 100%;
+margin: auto;
+
+}
+
+
+
+/*  course_program style end */
